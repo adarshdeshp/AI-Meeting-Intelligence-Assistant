@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Backend runtime storage
+backend/storage/uploads/
+backend/storage/chroma/
+
+# Keep empty folders
+!backend/storage/uploads/.gitkeep
+!backend/storage/chroma/.gitkeep
+
+# Node
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+# Backend runtime storage (ignore contents, keep folders)
+backend/storage/uploads/*
+backend/storage/chroma/*
+
+# Allow gitkeep
+!backend/storage/uploads/.gitkeep
+!backend/storage/chroma/.gitkeep
